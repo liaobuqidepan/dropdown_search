@@ -71,7 +71,7 @@ class TextFieldProps extends BaseTextFieldProps {
   final ValueChanged<String>? onSubmitted;
   final bool onTapAlwaysCalled;
   final Object groupId;
-  final TapRegionUpCallback? onTapUpOutside;
+  //final TapRegionUpCallback? onTapUpOutside;
 
   const TextFieldProps({
     this.groupId = EditableText,
@@ -137,11 +137,11 @@ class TextFieldProps extends BaseTextFieldProps {
     this.ignorePointers,
     this.magnifierConfiguration,
     this.onTapOutside,
-    this.stylusHandwritingEnabled =
-        EditableText.defaultStylusHandwritingEnabled,
+    this.stylusHandwritingEnabled = true,// EditableText.defaultStylusHandwritingEnabled,
+
     this.spellCheckConfiguration,
     this.undoController,
-    this.onTapUpOutside,
+    //this.onTapUpOutside,
   });
 
   static Widget _defaultContextMenuBuilder(

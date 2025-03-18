@@ -161,8 +161,7 @@ class CupertinoTextFieldProps extends BaseTextFieldProps {
     this.onTapOutside,
     this.spellCheckConfiguration,
     this.undoController,
-    this.stylusHandwritingEnabled =
-        EditableText.defaultStylusHandwritingEnabled,
+    this.stylusHandwritingEnabled = true, // EditableText.defaultStylusHandwritingEnabled,
     this.onTapUpOutside,
     this.crossAxisAlignment = CrossAxisAlignment.center,
   });

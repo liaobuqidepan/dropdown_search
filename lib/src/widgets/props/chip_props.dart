@@ -36,7 +36,7 @@ class ChipProps {
   final IconThemeData? iconTheme;
   final BoxConstraints? avatarBoxConstraints;
   final BoxConstraints? deleteIconBoxConstraints;
-  final ChipAnimationStyle? chipAnimationStyle;
+  final AnimatedContainer? chipAnimationStyle;
   final WidgetStateProperty<Color?>? color;
 
   const ChipProps({
@@ -113,7 +113,7 @@ class ChipProps {
     IconThemeData? iconTheme,
     BoxConstraints? avatarBoxConstraints,
     BoxConstraints? deleteIconBoxConstraints,
-    ChipAnimationStyle? chipAnimationStyle,
+    AnimatedContainer? chipAnimationStyle,
     WidgetStateProperty<Color?>? color,
   }) {
     return ChipProps(

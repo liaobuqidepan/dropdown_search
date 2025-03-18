@@ -212,7 +212,7 @@ class DropdownSearchPopupState<T> extends State<DropdownSearchPopup<T>> {
           type: MaterialType.transparency,
           //todo temp solution till fix this Flutter issue here https://github.com/flutter/flutter/issues/155198
           child: ListView.builder(
-            hitTestBehavior: widget.props.listViewProps.hitTestBehavior,
+            //hitTestBehavior: widget.props.listViewProps.hitTestBehavior,
             controller:
                 widget.props.listViewProps.controller ?? scrollController,
             shrinkWrap: widget.props.listViewProps.shrinkWrap,

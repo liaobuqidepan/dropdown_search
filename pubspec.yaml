@@ -17,8 +17,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  lints: ^5.1.1
-  pana: ^0.22.18
+  lints: any
+  pana: any
 
 topics:
   - dropdown

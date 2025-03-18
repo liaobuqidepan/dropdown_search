@@ -11,7 +11,7 @@ class CustomTextFields extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextField(
       controller: controller,
-      groupId: props.groupId,
+      //groupId: props.groupId,
       onChanged: props.onSelected,
       onEditingComplete: props.onEditingComplete,
       onSubmitted: props.onSubmitted,
@@ -72,10 +72,10 @@ class CustomTextFields extends StatelessWidget {
       ignorePointers: props.ignorePointers,
       magnifierConfiguration: props.magnifierConfiguration,
       onTapOutside: props.onTapOutside,
-      stylusHandwritingEnabled: props.stylusHandwritingEnabled,
+      //stylusHandwritingEnabled: props.stylusHandwritingEnabled,
       undoController: props.undoController,
       spellCheckConfiguration: props.spellCheckConfiguration,
-      onTapUpOutside: props.onTapUpOutside,
+      //onTapUpOutside: props.onTapUpOutside,
     );
   }
 }

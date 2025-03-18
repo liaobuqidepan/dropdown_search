@@ -46,7 +46,7 @@ class CustomChip extends StatelessWidget {
       avatarBorder: props.avatarBorder,
       avatarBoxConstraints: props.avatarBoxConstraints,
       deleteIconBoxConstraints: props.deleteIconBoxConstraints,
-      chipAnimationStyle: props.chipAnimationStyle,
+      //chipAnimationStyle: props.chipAnimationStyle,
     );
   }
 }

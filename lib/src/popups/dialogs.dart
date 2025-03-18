@@ -25,7 +25,7 @@ Future openMaterialDialog(
         actionsOverflowAlignment: props.actionsOverflowAlignment,
         actionsAlignment: props.actionsAlignment,
         alignment: props.alignment,
-        clipBehavior: props.clipBehavior,
+        clipBehavior: props.clipBehavior??Clip.none,
         elevation: props.elevation,
         contentPadding: props.contentPadding,
         shape: props.shape,
